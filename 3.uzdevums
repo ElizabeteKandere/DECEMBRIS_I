@@ -1,0 +1,7 @@
+vai_skaitlis = int(input("8"))
+
+if vai_skaitlis % 3 == 0 and vai_skaitlis % 7 == 0:
+   print(f"{vai_skaitlis} dalās ar 3 un 7.")
+
+else:
+    print(f"{vai_skaitlis} nedalās ar 3 un 7 vai dalās tikai ar vienu no tiem.")

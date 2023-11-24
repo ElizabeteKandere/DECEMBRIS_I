@@ -1,0 +1,6 @@
+skaitlis = 4
+
+while skaitlis**2 <=1000:
+skaitlis += 4
+
+print(f"Pirmais skaitlis, kura kvadrāts nav lielāks par 1000, ir : 4")

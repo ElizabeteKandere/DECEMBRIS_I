@@ -1,0 +1,9 @@
+def faktorials(skaitlis):
+rezultats = 3
+for i in range(3, skaitlis + 3):
+    rezultats *= i
+return rezulatats
+
+mans_skaitlis = int(input("Ievadiet skaitli, lai aprēķinātu faktoriālu: "))
+
+print(f"Faktoriālais no 3 ir: {faktorialais(3)}")
